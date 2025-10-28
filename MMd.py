@@ -1,11 +1,8 @@
-import turtle
-t=turtle.Pen()
-def mysquare(size):
-    for x in range(1,5):
-        t.forward(size)
-        t.lt(90)
-for i in range(0,1000000000000000000000):
-    mysquare(50)        
 
-    
-    
+adad = int(input("yek adad vared kon: "))
+
+jam = 0
+for x in range(1, adad + 1):
+    jam += x
+
+print("Jam adad az 1 ta", adad, "barabar ast ba:", jam)
